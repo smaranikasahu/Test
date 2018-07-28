@@ -17,6 +17,7 @@ mvn archetype:generate -DgroupId=qaAcademy -DartifactId=MavenJava -DarchetypeArt
 
 importing the project into eclipse in the pom folder structure to create .project and .classpath file
 mvn eclips:eclipse
+after that import the project in the eclipse workspace
 
 The jars are stored in .m2 folder under repository from maven 
 
@@ -42,3 +43,6 @@ mvn compile-Checking the syntax of the code in maven is  present for the project
 mvn test 
 Test Keyword at the end of each java file of maven project so that it can recognize it
 
+Commands to be run inside command prompt:
+change drive d: press enter
+cd d:\folderName press enter
