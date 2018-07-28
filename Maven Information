@@ -1,0 +1,44 @@
+All facts about maven 
+Maven-Build management and project management tool  for java framework.
+-Central repository to get dependency
+-Maintaining common structure across organisation.
+-Flexibility in integration with CI tools.
+-Plugins for test execution framework.
+
+Artifact-It is a file usually a jar that gets deployed to a maven repository.(project name in eclipse)
+Group-Id-It will identify the project uniquely across all projects.(package in eclipse)
+artifact id it is a sub project of a project
+Artifact id- will be project name in eclipse after maven project get created
+
+Command to create a maven project with default project structure
+mvn archetype:generate -DgroupId=qaAcademy -DartifactId=MavenJava -DarchetypeArtifactIs=maven-archetype-quickstart -DinteractiveMode=false
+
+-D-Stands for parameter
+
+importing the project into eclipse in the pom folder structure to create .project and .classpath file
+mvn eclips:eclipse
+
+The jars are stored in .m2 folder under repository from maven 
+
+Pom.Xml-Project object model
+Surefire plugin to execute the maven test cases.By default it is not present in the POM file of maven project user have to download it from the maven central repository.
+
+The Surefire Plugin is used during the test phase of the build lifecycle to execute the unit tests of an application. It generates reports in two different file formats:
+
+Plain text files (*.txt)
+XML files (*.xml)
+By default, these files are generated in ${basedir}/target/surefire-reports/TEST-*.xml.
+
+The schema for the Surefire XML reports is available at Surefire XML Report Schema.
+
+Parent POM and POM file are important in maven project
+
+Surefire plugin link -https://maven.apache.org/surefire/maven-surefire-plugin/usage.html under the usage header dependency for surefire plugin
+
+mvn clean-cleans the projects and delete all the previous references.
+Commmands should be executed from the project level directory.
+
+mvn compile-Checking the syntax of the code in maven is  present for the project built in feature.
+mvn test 
+Test Keyword at the end of each java file of maven project so that it can recognize it
+
