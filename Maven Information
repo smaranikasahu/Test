@@ -46,3 +46,5 @@ Test Keyword at the end of each java file of maven project so that it can recogn
 Commands to be run inside command prompt:
 change drive d: press enter
 cd d:\folderName press enter
+
+Command to Run single test in maven:mvn -Dtext -TestCase1 test
