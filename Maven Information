@@ -48,3 +48,4 @@ change drive d: press enter
 cd d:\folderName press enter
 
 Command to Run single test in maven:mvn -Dtext -TestCase1 test
+Create a profile and run the test case of that profile in maven using the command  mvn test -PRegression
