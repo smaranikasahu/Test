@@ -1,0 +1,4 @@
+Method Overloading can be achieved in 3 ways:
+a)Same method name with different numbers of parameters in arguement list.
+b)Same method name with different data type of arguements.
+c)different in the sequence of data type of arguements
